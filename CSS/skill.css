@@ -1,0 +1,58 @@
+*{
+    list-style: none;
+}
+.titulo{
+
+    font-family: "Holtwood One SC", serif;
+
+}
+.titulo:hover{
+    color:#002D62;
+}
+.container-dos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+   
+    
+
+.texto{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+
+    flex: content;
+}
+.container-p {
+    /* Full width */
+   width: 30%;
+    
+  }
+.container p{
+
+    margin-top: 25px;
+    font-family: "Holtwood One SC", serif;  
+    color:#002D62;
+}
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 25px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: rgb(130, 67, 67); /* White text color */
+  }
+  .container-texto{
+ width: 40%;
+  }
+  
+  .html {width: 90%; background-color: #5F9EA0;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 80%; background-color: #f44336;} /* Red */
+  .php {width: 75%; background-color: #808080;} /* Dark Grey */
+  .BD {width: 75%; background-color: #6699CC;}}
