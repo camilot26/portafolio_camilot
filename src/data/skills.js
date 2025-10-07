@@ -24,8 +24,8 @@ export const skillsData = [
       { name: 'Tailwind CSS', level: 92, color: '#06B6D4' },
       { name: 'HTML5/CSS3', level: 98, color: '#E34F26' }
     ],
-    projects: 15,
-    experience: '3+ años',
+    projects: 5,
+    experience: '1+ años',
     category: 'development'
   },
   {
@@ -40,8 +40,8 @@ export const skillsData = [
       { name: 'Python', level: 75, color: '#3776AB' },
       { name: 'Express.js', level: 78, color: '#000000' }
     ],
-    projects: 20,
-    experience: '3+ años',
+    projects: 5,
+    experience: '1+ años',
     category: 'development'
   },
   {
@@ -56,24 +56,9 @@ export const skillsData = [
       { name: 'Redis', level: 70, color: '#DC382D' },
       { name: 'Firebase', level: 75, color: '#FFCA28' }
     ],
-    projects: 18,
-    experience: '3+ años',
+    projects: 5,
+    experience: '1+ años',
     category: 'database'
-  },
-  {
-    id: 'mobile',
-    name: 'Mobile Development',
-    icon: Smartphone,
-    description: 'Apps móviles nativas y web',
-    technologies: [
-      { name: 'React Native', level: 80, color: '#61DAFB' },
-      { name: 'Flutter', level: 70, color: '#02569B' },
-      { name: 'PWA', level: 85, color: '#5A0FC8' },
-      { name: 'Ionic', level: 65, color: '#3880FF' }
-    ],
-    projects: 8,
-    experience: '2+ años',
-    category: 'development'
   },
   {
     id: 'devops',
@@ -87,8 +72,8 @@ export const skillsData = [
       { name: 'GitHub Actions', level: 80, color: '#2088FF' },
       { name: 'Nginx', level: 70, color: '#009639' }
     ],
-    projects: 12,
-    experience: '2+ años',
+    projects: 5,
+    experience: '1+ años',
     category: 'infrastructure'
   },
   {
@@ -103,8 +88,8 @@ export const skillsData = [
       { name: 'Figma', level: 75, color: '#F24E1E' },
       { name: 'Jira', level: 80, color: '#0052CC' }
     ],
-    projects: 50,
-    experience: '4+ años',
+    projects: 15,
+    experience: '2+ años',
     category: 'tools'
   }
 ];

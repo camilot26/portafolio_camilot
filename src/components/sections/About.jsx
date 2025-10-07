@@ -91,12 +91,6 @@ const About = () => {
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <GraduationCap className="w-5 h-5 text-blue-600 dark:text-blue-400" />
-                    <span className="text-sm text-gray-600 dark:text-gray-400">
-                      Ing. Sistemas
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
                     <Code className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                     <span className="text-sm text-gray-600 dark:text-gray-400">
                       Full Stack Dev
@@ -111,7 +105,7 @@ const About = () => {
                   variants={fadeInUp}
                   className="text-center p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl"
                 >
-                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">50+</div>
+                  <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">10+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Proyectos</div>
                 </motion.div>
                 <motion.div 

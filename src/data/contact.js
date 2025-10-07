@@ -1,10 +1,10 @@
 export const contactInfo = {
-  email: 'camilo@tejada.dev',
+  email: 'camilotejada1@gmail.com',
   phone: '+57 300 123 4567',
   location: 'Medellín, Antioquia, Colombia',
   timezone: 'GMT-5 (COT)',
   availability: {
-    status: 'available', // available, busy, unavailable
+    status: 'available', 
     message: 'Disponible para nuevos proyectos',
     workingHours: 'Lunes - Viernes, 9:00 AM - 6:00 PM COT'
   }
@@ -14,8 +14,8 @@ export const socialLinks = [
   {
     id: 'github',
     name: 'GitHub',
-    url: 'https://github.com/camilotejada',
-    username: '@camilotejada',
+    url: 'https://github.com/camilot26',
+    username: '@camilot26',
     icon: 'github',
     color: '#181717',
     description: 'Mis proyectos y contribuciones'
@@ -30,19 +30,10 @@ export const socialLinks = [
     description: 'Perfil profesional'
   },
   {
-    id: 'twitter',
-    name: 'Twitter',
-    url: 'https://twitter.com/camilotejada',
-    username: '@camilotejada',
-    icon: 'twitter',
-    color: '#1DA1F2',
-    description: 'Pensamientos sobre tech'
-  },
-  {
     id: 'instagram',
     name: 'Instagram',
-    url: 'https://instagram.com/camilo.tejada',
-    username: '@camilo.tejada',
+    url: 'https://www.instagram.com/tejada.1/',
+    username: '@tejada.1',
     icon: 'instagram',
     color: '#E4405F',
     description: 'Vida personal y hobbies'
@@ -74,24 +65,13 @@ export const contactMethods = [
     id: 'whatsapp',
     name: 'WhatsApp',
     value: contactInfo.phone,
-    href: `https://wa.me/573001234567`,
+    href: `https://wa.me/573225080206`,
     icon: 'message-circle',
     primary: false,
     description: 'Chat directo',
     responseTime: 'Respuesta rápida'
   },
-  {
-    id: 'calendly',
-    name: 'Agendar reunión',
-    value: 'Calendly',
-    href: 'https://calendly.com/camilotejada',
-    icon: 'calendar',
-    primary: false,
-    description: 'Videollamada de 30 min',
-    responseTime: 'Horarios disponibles'
-  }
 ];
-
 // Form configuration
 export const contactForm = {
   fields: [

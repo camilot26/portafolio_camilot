@@ -13,13 +13,18 @@ import { fadeInUp, staggerContainer } from '@utils/animations';
 import { scrollToSection } from '@utils/navigation';
 
 const Hero = () => {
-  const handleDownloadCV = () => {
-    // Implementar descarga del CV
-    const link = document.createElement('a');
-    link.href = '/cv-camilo-tejada.pdf';
-    link.download = 'CV-Camilo-Tejada.pdf';
-    link.click();
-  };
+const handleDownloadCV = () => {
+  const fileUrl = 'https://rohbbpgyovkazjunjeji.supabase.co/storage/v1/object/public/images/resume.pdf';
+  
+  const link = document.createElement('a');
+  link.href = fileUrl;
+  link.setAttribute('download', 'CV-Camilo-Tejada.pdf');
+  link.setAttribute('target', '_blank');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 
   const handleContact = () => {
     scrollToSection('contact');
@@ -129,11 +134,11 @@ const Hero = () => {
               className="flex gap-8 justify-center lg:justify-start mt-12 pt-8 border-t border-gray-200/50 dark:border-gray-700/50"
             >
               <div className="text-center">
-                <div className="text-2xl font-bold text-gray-900 dark:text-white">3+</div>
+                <div className="text-2xl font-bold text-gray-900 dark:text-white">2+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Años Exp.</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-gray-900 dark:text-white">50+</div>
+                <div className="text-2xl font-bold text-gray-900 dark:text-white">10+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Proyectos</div>
               </div>
               <div className="text-center">
@@ -143,7 +148,7 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Profile Image */}
+         
           <motion.div
             variants={fadeInUp}
             className="flex justify-center lg:justify-end"

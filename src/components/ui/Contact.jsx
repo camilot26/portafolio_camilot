@@ -66,15 +66,15 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'camilo@tejada.dev',
-      href: 'mailto:camilo@tejada.dev',
+      value: 'camilotejada1@gmail.com',
+      href: 'mailto:camilotejada1@gmail.com',
       description: 'Respondo en menos de 24 horas'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Teléfono',
-      value: '+57 300 123 4567',
-      href: 'tel:+573001234567',
+      value: '+57 322 508 0206',
+      href: 'tel:+573225080206',
       description: 'Disponible de L-V, 9AM - 6PM'
     },
     {
@@ -84,20 +84,13 @@ const Contact = () => {
       href: '#',
       description: 'Disponible para trabajo remoto'
     },
-    {
-      icon: <Calendar className="w-6 h-6" />,
-      title: 'Calendly',
-      value: 'Agendar reunión',
-      href: 'https://calendly.com/camilotejada',
-      description: 'Agenda una videollamada'
-    }
   ];
 
   const socialLinks = [
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      href: 'https://github.com/camilotejada',
+      href: 'https://github.com/camilot26',
       color: 'hover:text-gray-900 hover:bg-gray-100'
     },
     {
@@ -107,15 +100,9 @@ const Contact = () => {
       color: 'hover:text-blue-600 hover:bg-blue-50'
     },
     {
-      icon: <Twitter className="w-6 h-6" />,
-      label: 'Twitter',
-      href: 'https://twitter.com/camilotejada',
-      color: 'hover:text-blue-400 hover:bg-blue-50'
-    },
-    {
       icon: <Instagram className="w-6 h-6" />,
       label: 'Instagram',
-      href: 'https://instagram.com/camilo.tejada',
+      href: 'https://instagram.com/tejada.1/',
       color: 'hover:text-pink-600 hover:bg-pink-50'
     }
   ];

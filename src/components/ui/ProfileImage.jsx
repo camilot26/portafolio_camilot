@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import profileImage from "../../images/profile1.png";
 const ProfileImage = ({ 
-  src = "/images/profile.webp", 
-  alt = "Camilo Tejada",
+  src = profileImage,
+  alt = "Profile Image",
   size = "lg",
   className = ""
 }) => {
@@ -16,7 +16,7 @@ const ProfileImage = ({
 
   return (
     <div className="relative">
-      {/* Animated Background Rings */}
+      {/* Animated Background Ring */}
       <motion.div
         className="absolute inset-0 rounded-full"
         style={{
@@ -50,34 +50,37 @@ const ProfileImage = ({
           transition: { duration: 0.3 }
         }}
       >
-        {/* Placeholder for now - you can replace with actual image */}
-        <div className="w-full h-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 flex items-center justify-center">
-          <div className="text-white text-4xl font-bold">CT</div>
-        </div>
-        
-        {/* Uncomment when you have the actual image */}
-        {/* 
+        {/* Image */}
         <img
           src={src}
           alt={alt}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover relative z-20"
+          onLoad={(e) => {
+            // Hide fallback div when image loads
+            const fallback = e.target.nextElementSibling;
+            if (fallback) fallback.style.display = 'none';
+          }}
           onError={(e) => {
-            // Fallback to initials if image fails to load
+            // Hide image and show fallback
             e.target.style.display = 'none';
           }}
         />
-        */}
+        
+        {/* Fallback - only shows if image fails */}
+        <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 flex items-center justify-center z-10">
+          <div className="text-white text-4xl font-bold">CT</div>
+        </div>
         
         {/* Overlay Effect */}
         <motion.div
-          className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent"
+          className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent z-30"
           initial={{ opacity: 0 }}
           whileHover={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
         />
       </motion.div>
 
-      {/* Floating Accent Elements */}
+      {/* Floating elements - rest of your code stays the same */}
       <motion.div
         className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full"
         animate={{
@@ -105,7 +108,6 @@ const ProfileImage = ({
         }}
       />
 
-      {/* Status Indicator */}
       <motion.div
         className="absolute bottom-4 right-4 w-6 h-6 bg-green-500 border-4 border-white dark:border-gray-900 rounded-full z-20"
         initial={{ scale: 0 }}

@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Github, 
-  Linkedin, 
-  Twitter, 
+import {
+  Github,
+  Linkedin,
+  Twitter,
   Instagram,
   Mail,
   Phone,
@@ -45,7 +45,7 @@ const Footer = () => {
   ];
 
   const technologies = [
-    'React', 'Node.js', 'Java', 'Spring Boot', 
+    'React', 'Node.js', 'Java', 'Spring Boot',
     'PostgreSQL', 'MongoDB', 'Docker', 'AWS'
   ];
 
@@ -61,7 +61,7 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-            
+
             {/* Company Info */}
             <motion.div
               variants={fadeInUp}
@@ -75,8 +75,8 @@ const Footer = () => {
                   &lt;/Tejada&gt;
                 </h3>
                 <p className="text-sm leading-relaxed">
-                  Desarrollador Full Stack apasionado por crear soluciones 
-                  digitales innovadoras y escalables. Especializándome en 
+                  Desarrollador Full Stack apasionado por crear soluciones
+                  digitales innovadoras y escalables. Especializándome en
                   tecnologías modernas y mejores prácticas.
                 </p>
               </div>
@@ -89,20 +89,20 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <Mail className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                  <a 
-                    href="mailto:camilo@tejada.dev"
+                  <a
+                    href="mailto:camilotejada1@gmail.com" 
                     className="hover:text-white transition-colors"
                   >
-                    camilo@tejada.dev
+                    camilotejada1@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <Phone className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                  <a 
+                  <a
                     href="tel:+573001234567"
                     className="hover:text-white transition-colors"
                   >
-                    +57 300 123 4567
+                    +57 322 508 0206
                   </a>
                 </div>
               </div>
@@ -110,10 +110,9 @@ const Footer = () => {
               {/* Social Links */}
               <div className="flex gap-4">
                 {[
-                  { icon: Github, href: 'https://github.com/camilotejada', label: 'GitHub' },
+                  { icon: Github, href: 'https://github.com/camilot26', label: 'GitHub' },
                   { icon: Linkedin, href: 'https://linkedin.com/in/camilo-tejada-09386b1a4/', label: 'LinkedIn' },
-                  { icon: Twitter, href: 'https://twitter.com/camilotejada', label: 'Twitter' },
-                  { icon: Instagram, href: 'https://instagram.com/camilo.tejada', label: 'Instagram' }
+                  { icon: Instagram, href: 'https://instagram.com/tejada.1/', label: 'Instagram' }
                 ].map(({ icon: Icon, href, label }) => (
                   <motion.a
                     key={label}
@@ -151,13 +150,16 @@ const Footer = () => {
                   </button>
                 ))}
                 <a
-                  href="/cv-camilo-tejada.pdf"
-                  download
+                  href="https://rohbbpgyovkazjunjeji.supabase.co/storage/v1/object/public/images/resume.pdf"
+                  download="CV-Camilo-Tejada.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm hover:text-white transition-colors hover:translate-x-1 transform duration-200"
                 >
                   Descargar CV
                   <ExternalLink className="w-3 h-3" />
                 </a>
+
               </nav>
             </motion.div>
 
@@ -207,11 +209,11 @@ const Footer = () => {
               {/* Stats */}
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="text-center p-3 bg-gray-800 rounded-lg">
-                  <div className="text-xl font-bold text-blue-400">50+</div>
+                  <div className="text-xl font-bold text-blue-400">10+</div>
                   <div className="text-xs text-gray-400">Proyectos</div>
                 </div>
                 <div className="text-center p-3 bg-gray-800 rounded-lg">
-                  <div className="text-xl font-bold text-green-400">3+</div>
+                  <div className="text-xl font-bold text-green-400">2+</div>
                   <div className="text-xs text-gray-400">Años Exp.</div>
                 </div>
               </div>
@@ -252,7 +254,7 @@ const Footer = () => {
         <div className="border-t border-gray-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              
+
               {/* Copyright */}
               <div className="flex items-center gap-2 text-sm">
                 <span>© {currentYear} Camilo Tejada. Hecho con</span>

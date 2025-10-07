@@ -27,9 +27,9 @@ export const personalInfo = {
   },
   
   stats: {
-    experience: '3+',
-    projects: '50+',
-    technologies: '15+',
+    experience: '2+',
+    projects: '10+',
+    technologies: '10+',
     contributions: '200+'
   }
 };
@@ -66,87 +66,6 @@ export const timeline = [
     ],
     location: 'Remoto'
   },
-  {
-    id: 'junior-dev-2022',
-    type: 'work',
-    title: 'Junior Full Stack Developer',
-    company: 'TechSolutions Col',
-    period: '2022 - 2023',
-    description: 'Desarrollo y mantenimiento de aplicaciones empresariales. Colaboración en equipo ágil para la entrega de soluciones de software de calidad.',
-    technologies: ['JavaScript', 'PHP', 'MySQL', 'Laravel', 'Vue.js'],
-    achievements: [
-      'Reducción de bugs en producción en un 60%',
-      'Implementación de testing automatizado',
-      'Contribución al sistema de CI/CD'
-    ],
-    location: 'Medellín, Colombia'
-  },
-  {
-    id: 'university-2021',
-    type: 'education',
-    title: 'Ingeniería de Sistemas',
-    institution: 'Universidad de Antioquia',
-    period: '2018 - 2022',
-    description: 'Formación sólida en fundamentos de programación, algoritmos, estructuras de datos, ingeniería de software y arquitectura de sistemas.',
-    achievements: [
-      'Graduado Cum Laude (GPA: 4.2/5.0)',
-      'Presidente del grupo de estudio de desarrollo web',
-      'Proyecto de grado: Sistema de gestión académica'
-    ],
-    finalProject: {
-      title: 'Sistema de Gestión Académica Integral',
-      description: 'Plataforma web completa para la administración de instituciones educativas',
-      technologies: ['Java', 'Spring Boot', 'Angular', 'PostgreSQL'],
-      grade: '4.8/5.0'
-    },
-    location: 'Medellín, Colombia'
-  },
-  {
-    id: 'bootcamp-2021',
-    type: 'education',
-    title: 'Full Stack Web Development Bootcamp',
-    institution: 'Riwi',
-    period: '2021',
-    description: 'Programa intensivo de desarrollo web full stack con enfoque práctico en tecnologías modernas y metodologías ágiles.',
-    technologies: ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
-    achievements: [
-      'Graduado entre el top 5% de la clase',
-      'Proyecto final destacado',
-      'Certificación en metodologías ágiles'
-    ],
-    location: 'Medellín, Colombia'
-  },
-  {
-    id: 'certification-java-2023',
-    type: 'achievement',
-    title: 'Oracle Certified Professional: Java SE',
-    institution: 'Oracle',
-    period: '2023',
-    description: 'Certificación oficial de Oracle que valida conocimientos avanzados en Java SE, programación orientada a objetos y mejores prácticas.',
-    credentialId: 'OCP-JSE-12345',
-    verificationUrl: 'https://education.oracle.com/oracle-certified-professional-java-se-11-developer/trackp_815'
-  },
-  {
-    id: 'hackathon-2023',
-    type: 'achievement',
-    title: 'Ganador HackMedellín 2023',
-    institution: 'Ruta N',
-    period: '2023',
-    description: 'Primer lugar en la categoría "Innovación Social" con una solución tecnológica para la gestión comunitaria de torneos deportivos.',
-    project: 'SportsCommunity',
-    team: '4 desarrolladores',
-    prize: '$5,000 USD + Mentoría empresarial'
-  },
-  {
-    id: 'aws-certification-2023',
-    type: 'achievement',
-    title: 'AWS Certified Cloud Practitioner',
-    institution: 'Amazon Web Services',
-    period: '2023',
-    description: 'Certificación que valida conocimientos fundamentales de la nube de AWS, incluyendo servicios, arquitectura y mejores prácticas de seguridad.',
-    credentialId: 'AWS-CP-67890',
-    verificationUrl: 'https://aws.amazon.com/certification/certified-cloud-practitioner/'
-  }
 ];
 
 // Skills Summary (complementary to detailed skills)
@@ -244,11 +163,9 @@ export const interests = [
 // Fun Facts
 export const funFacts = [
   'Empecé a programar a los 15 años creando mods para videojuegos',
-  'He contribuido a más de 20 proyectos open source',
   'Mi IDE favorito es VS Code con más de 30 extensiones instaladas',
   'Disfruto explicar conceptos técnicos complejos de manera simple',
-  'Siempre tengo al menos 10 pestañas de Stack Overflow abiertas',
-  'Mi primer "Hello World" fue en Python, pero me enamoré de JavaScript',
+  'Mi primer "Hello World" fue en Python, pero me enamoré de Java',
   'Creo firmemente que el mejor código es el que no necesitas escribir'
 ];
 
