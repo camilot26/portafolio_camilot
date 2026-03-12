@@ -58,8 +58,8 @@ const About = () => {
                 
                 <div className="space-y-4 text-gray-600 dark:text-gray-400">
                   <p>
-                    Desarrollador Full Stack apasionado por crear soluciones digitales 
-                    que marquen la diferencia. Con más de 3 años de experiencia, me 
+                    Desarrollador Full Stack apasionado por crear soluciones digitales
+                    que marquen la diferencia. Con más de 2 años de experiencia, me
                     especializo en el desarrollo backend con Java y frontend con React.
                   </p>
                   
@@ -87,7 +87,7 @@ const About = () => {
                   <div className="flex items-center gap-3">
                     <Calendar className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                     <span className="text-sm text-gray-600 dark:text-gray-400">
-                      3+ años experiencia
+                      2+ años experiencia
                     </span>
                   </div>
                   <div className="flex items-center gap-3">

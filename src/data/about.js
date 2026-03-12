@@ -11,7 +11,7 @@ export const personalInfo = {
   bio: {
     short: 'Desarrollador Full Stack apasionado por crear soluciones digitales robustas y escalables.',
     long: `
-      Soy un desarrollador Full Stack con más de 3 años de experiencia especializándome 
+      Soy un desarrollador Full Stack con más de 2 años de experiencia especializándome
       en el desarrollo de aplicaciones web y móviles. Mi enfoque principal está en 
       JavaScript/TypeScript, React, Node.js, y Java con Spring Boot.
       
