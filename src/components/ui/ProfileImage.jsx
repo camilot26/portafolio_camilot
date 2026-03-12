@@ -54,7 +54,7 @@ const ProfileImage = ({
         <img
           src={src}
           alt={alt}
-          className="w-full h-full object-cover relative z-20"
+          className="w-full h-full object-cover object-top relative z-20"
           onLoad={(e) => {
             // Hide fallback div when image loads
             const fallback = e.target.nextElementSibling;

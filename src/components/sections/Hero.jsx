@@ -35,6 +35,9 @@ const handleDownloadCV = () => {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
+      {/* Grid overlay */}
+      <div className="absolute inset-0 grid-pattern pointer-events-none" />
+
       {/* Background Elements */}
       <FloatingElements />
       

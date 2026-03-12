@@ -24,6 +24,12 @@ export const navigationItems = [
     description: 'Mi trabajo'
   },
   {
+    id: 'ai',
+    label: 'IA & Automatización',
+    href: '#ai',
+    description: 'Python, n8n, ElevenLabs'
+  },
+  {
     id: 'contact',
     label: 'Contacto',
     href: '#contact',

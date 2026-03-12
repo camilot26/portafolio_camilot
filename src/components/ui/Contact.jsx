@@ -108,7 +108,8 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-white dark:bg-gray-900">
+    <section id="contact" className="relative overflow-hidden py-20 bg-white dark:bg-gray-900">
+      <div className="absolute inset-0 grid-pattern pointer-events-none" />
       <Container>
         <motion.div
           ref={ref}

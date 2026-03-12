@@ -9,6 +9,7 @@ import Hero from '@components/sections/Hero';
 import About from '@components/sections/About';
 import Skills from '@components/sections/Skills';
 import Projects from '@components/sections/Projects';
+import AIAutomation from '@components/sections/AIAutomation';
 import Contact from '@components/ui/Contact';
 import Footer from '@components/layout/Footer';
 
@@ -22,7 +23,7 @@ import { pageTransition } from '@utils/animations';
 
 function App() {
   const { isDark } = useTheme();
-  const activeSection = useScrollSpy(['hero', 'about', 'skills', 'projects', 'contact']);
+  const activeSection = useScrollSpy(['hero', 'about', 'skills', 'projects', 'ai', 'contact']);
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${
@@ -56,6 +57,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <AIAutomation />
         <Contact />
       </motion.main>
 
