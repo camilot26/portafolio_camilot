@@ -16,8 +16,8 @@ export const projectsData = [
     Portafolio hecho a la medida con las tecnologías más modernas y de código abierto. El proyecto fue desarrollado en astro, junto con supabase como base de datos.
     `,
     image: '/images/projects/ecommerce-platform.webp',
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux', 'Socket.io'],
-    category: 'fullstack',
+    tags: ['Astro', 'Supabase', 'Netlify', 'JavaScript', 'CSS'],
+    category: 'frontend',
     github: 'https://github.com/camilot26/Portafolio-arquitectura-Pacotejada',
     demo: 'https://portafolio-pacotejada.netlify.app/arquitectura/',
     status: 'completed',
@@ -27,11 +27,11 @@ export const projectsData = [
     lines: '15,000+',
     year: 2024,
     highlights: [
-      'Sistema de pagos seguro con Stripe',
-      'Panel de administración completo',
-      'Carrito de compras persistente',
-      'Sistema de recomendaciones',
-      'Chat de soporte en tiempo real'
+      'Diseño personalizado y responsivo',
+      'Galería de proyectos de arquitectura',
+      'Integración con Supabase como base de datos',
+      'Despliegue continuo en Netlify',
+      'Optimización de rendimiento y SEO'
     ],
     technologies: {
       frontend: ['Astro'],
