@@ -20,7 +20,8 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800/50">
+    <section id="skills" className="relative overflow-hidden py-20 bg-gray-50 dark:bg-gray-800/50">
+      <div className="absolute inset-0 grid-pattern pointer-events-none" />
       <Container>
         <motion.div
           ref={ref}
@@ -69,7 +70,7 @@ const Skills = () => {
               </p>
               
               <div className="flex flex-wrap justify-center gap-3">
-                {['Machine Learning', 'GraphQL', 'Microservices', 'Kubernetes', 'Blockchain'].map((tech, index) => (
+                {['Python IA', 'n8n Workflows', 'ElevenLabs', 'LangChain', 'Voice Agents', 'Kubernetes'].map((tech, index) => (
                   <motion.span
                     key={tech}
                     initial={{ opacity: 0, scale: 0.8 }}

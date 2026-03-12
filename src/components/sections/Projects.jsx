@@ -174,7 +174,8 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-800/50">
+    <section id="projects" className="relative overflow-hidden py-20 bg-gray-50 dark:bg-gray-800/50">
+      <div className="absolute inset-0 grid-pattern pointer-events-none" />
       <Container>
         <div className="space-y-16">
           <motion.div

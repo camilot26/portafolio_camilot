@@ -180,6 +180,20 @@ a:focus-visible {
   background-size: 20px 20px;
 }
 
+/* Line Grid Overlay — apply to absolute inset-0 divs inside relative sections */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.dark .grid-pattern {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
 /* Line Clamp Utilities */
 .line-clamp-1 {
   overflow: hidden;
